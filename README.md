@@ -6,24 +6,6 @@ This repository contains the solution for the **CSP (Constraint Satisfaction Pro
 
 ---
 
-## 🧩 **Objective**
-
-Develop an **AI agent** that colours all nodes of a graph such that:
-
-* No two connected nodes share the same colour.
-* The agent can only see a **limited portion** of the graph.
-* The agent minimises **reassignments** (backtracking) and **moves** to maximise its score.
-
-## 🧾 **Assignment Guidelines**
-
-✅ Implement backtracking CSP in `[YourRollNumber].py`
-✅ Keep logic within a single file
-✅ Optimise for fewer moves and reassignments
-❌ Do not modify engine or runner files
-❌ Do not submit multiple files
-
----
-
 ## ⚙️ **How My Agent Works**
 
 1. **Domain Filtering and Constraint Propagation:**
